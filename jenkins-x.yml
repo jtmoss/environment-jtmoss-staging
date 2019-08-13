@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: jtmoss-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: jtmoss-staging
+  pipelines: {}
