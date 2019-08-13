@@ -5,4 +5,8 @@ pipelineConfig:
   env:
   - name: DEPLOY_NAMESPACE
     value: jtmoss-staging
-  pipelines: {}
+  pipelines:
+    release:
+      postBuild:
+        steps:
+        - command: make test

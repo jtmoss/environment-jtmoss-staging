@@ -21,3 +21,5 @@ delete:
 clean:
 
 
+test:
+    ADDRESS=go-demo-6.jtmoss-staging.35.227.31.200.nip.io go test -v
